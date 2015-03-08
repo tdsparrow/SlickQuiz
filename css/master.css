@@ -13,15 +13,16 @@ body {
     background: #fff;
     padding: 20px;
     font-family: Trebuchet, Arial,Helvetica,sans-serif;
-    font-size: 16px;
+    /*font-size: 16px;*/
     color: #353535;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
 h1 {
-    font-size: 26px;
+    font-size: 48px;
+    font-weight: 400;
     margin: 0 0 20px;
     color: #0C4569;
 }
@@ -90,6 +91,10 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 .quizArea:after, .quizResults:after {
     clear: both;
+}
+
+.quizDescription {
+    font-size: 30px;
 }
 
 .questionCount {
